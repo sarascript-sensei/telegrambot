@@ -1,0 +1,13 @@
+bot:
+  name: ExampleFortyBot
+  token: 1870951823:AAFOd1TZX1JWMAXsv8Kb-aNNTeKLMdI5HME
+spring:
+  datasource:
+    url: jdbc:postgresql://ec2-50-17-255-120.compute-1.amazonaws.com/dcdq0sq5l8lbt?user=revrbwdmrdjlog&password=9d815ff76d5c076f83825dbc12f72738f79e90303579b8636ce2048dae0a8018
+    driver-class-name: org.postgresql.Driver
+    initialization-mode: never
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
